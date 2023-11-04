@@ -1,0 +1,8 @@
+{
+    "host":"localhost",
+    "port" : "27017",
+    "dbName" : "Dev",
+    "isAtlas": true,
+    "isConnectionStingAvailable": true,
+    "connectionString": "mongodb+srv://devaffairscom:MRSTpUZxpn0QY9ES@devcluser.tppicda.mongodb.net/"
+}
