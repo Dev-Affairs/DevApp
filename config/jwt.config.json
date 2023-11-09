@@ -1,0 +1,5 @@
+{
+    "secretKey": "ryd#@34hc",
+    "TOKEN_EXPIRATION" : "15m",
+    "REFRESH_TOKEN_EXPIRATION" : "1d"
+}
