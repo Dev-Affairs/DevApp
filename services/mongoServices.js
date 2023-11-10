@@ -37,5 +37,10 @@ const insertOne = (collection,query) => {
   return data
 }
 
-module.exports = {initializeDB,findOne,insertOne}
+const updateOne = (collection,filter,query,upsert) =>{
+  let data = mongoDBO.collection(collection).updateOne(filter,query,upsert)
+  return data
+}
+
+module.exports = {initializeDB,findOne,insertOne,updateOne}
 
